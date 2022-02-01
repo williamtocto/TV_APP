@@ -5,12 +5,12 @@ import java.util.List;
 
 public final class MovieList {
     public static final String MOVIE_CATEGORY[] = {
-            "Category Zero",
-            "Category One",
-            "Category Two",
-            "Category Three",
-            "Category Four",
-            "Category Five",
+            "Inicio",
+            "Musica",
+            "Android Tutoriales",
+            "Deportes",
+            "Diversion",
+            "Documentales",
     };
 
     private static List<Movie> list;
@@ -26,7 +26,7 @@ public final class MovieList {
     public static List<Movie> setupMovies() {
         list = new ArrayList<>();
         String title[] = {
-                "Zeitgeist 2010_ Year in Review",
+                "William Tocto",
                 "Google Demo Slam_ 20ft Search",
                 "Introducing Gmail Blue",
                 "Introducing Google Fiber to the Pole",
