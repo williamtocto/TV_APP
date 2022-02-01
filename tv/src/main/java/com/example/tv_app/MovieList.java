@@ -7,10 +7,10 @@ public final class MovieList {
     public static final String MOVIE_CATEGORY[] = {
             "Videos",
             "",
-            "Category Two",
-            "Category Three",
-            "Category Four",
-            "Category Five",
+            "",
+            "",
+            "",
+            "",
     };
 
     private static List<Movie> list;
