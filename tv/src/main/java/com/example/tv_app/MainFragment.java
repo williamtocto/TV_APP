@@ -129,9 +129,9 @@ public class MainFragment extends BrowseSupportFragment {
         setHeadersTransitionOnBackEnabled(true);
 
         // set fastLane (or headers) background color
-        setBrandColor(ContextCompat.getColor(getContext(), R.color.fastlane_background));
+        setBrandColor(ContextCompat.getColor(getContext(), R.color.marlon_color));
         // set search icon color
-        setSearchAffordanceColor(ContextCompat.getColor(getContext(), R.color.search_opaque));
+        setSearchAffordanceColor(ContextCompat.getColor(getContext(), R.color.lb_default_search_icon_color));
     }
 
     private void setupEventListeners() {
