@@ -5,8 +5,8 @@ import java.util.List;
 
 public final class MovieList {
     public static final String MOVIE_CATEGORY[] = {
-            "Inicio",
-            "Category One",
+            "Videos",
+            "",
             "Category Two",
             "Category Three",
             "Category Four",
@@ -29,10 +29,10 @@ public final class MovieList {
         list = new ArrayList<>();
         String title[] = {
                 "El planeta Tierra",
-                "Motociclista",
-                "Carro",
-                "Introducing Google Fiber to the Pole",
-                "Introducing Google Nose"
+                "Caricatura",
+                "Ciencia",
+                "Race",
+                "Coches y Choques"
         };
 
         String description = "Fusce id nisi turpis. Praesent viverra bibendum semper. "
@@ -54,16 +54,16 @@ public final class MovieList {
         String bgImageUrl[] = {
                 "https://img.freepik.com/vector-gratis/fondo-banner-abstracto-formas-rojas_1361-3348.jpg?size=626&ext=jpg",
                 "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%2020ft%20Search/bg.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Gmail%20Blue/bg.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Fiber%20to%20the%20Pole/bg.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Nose/bg.jpg",
+                "https://m.media-amazon.com/images/M/MV5BMjA0NDYwOTc5Ml5BMl5BanBnXkFtZTcwOTc3MDgxOQ@@._V1_UY100_CR36,0,100,100_AL_.jpg",
+                "https://image.shutterstock.com/image-photo/toronto-ontario-canada-november-22nd-600w-1567942591.jpg",
+                "https://image.shutterstock.com/image-photo/minsk-belarus-september-13-2016-600w-496729612.jpg",
         };
         String cardImageUrl[] = {
                 "https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2010/03/04/100304165450_earth2.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%2020ft%20Search/card.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Gmail%20Blue/card.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Fiber%20to%20the%20Pole/card.jpg",
-                "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Nose/card.jpg"
+                "https://thumbs.dreamstime.com/b/traje-gordo-del-conejo-de-la-historieta-51213807.jpg",
+                "https://m.media-amazon.com/images/M/MV5BMjA0NDYwOTc5Ml5BMl5BanBnXkFtZTcwOTc3MDgxOQ@@._V1_UY100_CR36,0,100,100_AL_.jpg",
+                "https://image.shutterstock.com/image-photo/toronto-ontario-canada-november-22nd-600w-1567942591.jpg",
+                "https://image.shutterstock.com/image-photo/minsk-belarus-september-13-2016-600w-496729612.jpg"
         };
 
         for (int index = 0; index < title.length; ++index) {
