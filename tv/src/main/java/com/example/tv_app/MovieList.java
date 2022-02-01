@@ -5,7 +5,7 @@ import java.util.List;
 
 public final class MovieList {
     public static final String MOVIE_CATEGORY[] = {
-            "Category Zero",
+            "Inicio",
             "Category One",
             "Category Two",
             "Category Three",
@@ -45,7 +45,7 @@ public final class MovieList {
                 "Studio Zero", "Studio One", "Studio Two", "Studio Three", "Studio Four"
         };
         String videoUrl[] = {
-                "https://youtube.com/shorts/4HruTLJQna0?feature=share",
+                "https://youtu.be/OlVTf_C54A4",
                 "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/Demo%20Slam/Google%20Demo%20Slam_%2020ft%20Search.mp4",
                 "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Gmail%20Blue.mp4",
                 "https://commondatastorage.googleapis.com/android-tv/Sample%20videos/April%20Fool's%202013/Introducing%20Google%20Fiber%20to%20the%20Pole.mp4",
